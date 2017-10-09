@@ -6,8 +6,8 @@ projects = user.get_projects()
 groceries_project = user.get_project('Courses')
 groceries = groceries_project.get_tasks()
 print "##### LISTE COURSES #####"
-print "Nombre d'articles : "+str(len(groceries))
+print "Nombre d'articles : " + str(len(groceries))
 print "------------------------"
 for item in groceries:
-	print "[ ] "+item.content
+    print "[ ] " + item.content
 print "------------------------"
